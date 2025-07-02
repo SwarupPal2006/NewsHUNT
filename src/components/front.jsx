@@ -31,7 +31,7 @@ const Front = () => {
       <form>
         <div  className="navbar_search">
            <input type="text" placeholder="Search News,Articles and more" className='search' onChange={HandleInput}/>
-           <button type="button" className='search-btn' onClick={getData}><img src="../src/assets/searchicon.png" alt="searchicon"/></button>
+           <button type="button" className='search-btn' onClick={getData}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcq6SSjfDrfuHbhNH75c2bad-TLpgGrJcTzA&s" alt="searchicon"/></button>
         </div>
       </form>
       </div>
