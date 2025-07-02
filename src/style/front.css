@@ -1,0 +1,82 @@
+.front{
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+}
+.newstab{
+    background-image: url(../assets/background.webp);
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    font-size: 18px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 6rem 2rem 6rem;
+  
+}
+.huntt{
+  color: rgb(15, 15, 16);
+  background-image: linear-gradient(125deg , #f06745, #49f05f);
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 22px;
+  margin-bottom: 2rem;
+}
+.front p{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 18px;
+    line-height: 1.5;
+    
+    
+}
+.navbar_search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.search-btn:hover{
+    box-shadow: #405ef1 0px 0px 5px 0px;
+    transition: all 0.3s ease-in-out;
+}
+.search-btn img{
+    height: 40px;
+    width: 45px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-left: 0.2rem; 
+}
+.search{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    font-size: 17px;
+    border-radius: 8px 0px  0px 8px;
+    box-shadow: #29b5e8 0px 0px 17px 0px;
+    outline: none;
+    border: none;
+}
+@media screen and (max-width: 768px) {
+    .newstab{
+        padding: 6rem 2rem;
+    }
+    .front p{
+        margin-top: 6rem;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,41 @@
+.app-footer {
+  background-color: #f5bb1b;
+  color: #000000;
+  text-align: center;
+  padding: 1rem ;
+  margin-bottom: 0;
+  font-size: 0.9rem;
+}
+.hunt{
+  color: aliceblue;
+  background-image: linear-gradient(125deg , #f06745, #49f05f);
+  padding: 0.5rem;
+  border-radius: 6px;
+  font-size: 24px;
+}
+
+.app-footer p {
+  margin: 0.3rem;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin : 1rem;
+    font-size: 30px; 
+    
+   
+}
+.social a {
+    color: #fffefe;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.8rem;
+}
+.social a:hover{
+    color: rgb(16, 55, 208);
+    text-decoration: none;
+}
+
+
